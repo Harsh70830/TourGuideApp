@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingPlacesFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:src="@drawable/hong_kong_lane" />
+
+            <TextView
+                android:id="@+id/hong_kong_lane_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hong Kong Lane"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:clickable="true"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:src="@drawable/mahatma_phule_mandai" />
+
+            <TextView
+                android:id="@+id/mahatma_phule_manda_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mahatma Phule Mandai"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:clickable="true"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:src="@drawable/fashion_street" />
+
+            <TextView
+                android:id="@+id/fashion_street_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Fashion Street"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:clickable="true"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:src="@drawable/juna_bazar" />
+
+            <TextView
+                android:id="@+id/juna_b_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Juna Bazar"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:clickable="true"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:src="@drawable/m_g_road" />
+
+            <TextView
+                android:id="@+id/mg_road_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M.G. Road"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:clickable="true"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000" />
+
+    </LinearLayout>
+
+</ScrollView>

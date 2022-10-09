@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_Historical_Shaniwar_Wada"/>
+        <activity android:name=".Activity_Foods_sabudana_khichdi"  android:label="Details"></activity>
+        <activity android:name=".Activity_Foods_Poha" android:label="Details" />
+        <activity android:name=".Activity_Foods_Modak" android:label="Details"/>
+        <activity android:name=".Activity_Foods_Misal_Pav" android:label="Details"/>
+        <activity android:name=".Activity_Foods_Pav_Bhaji" android:label="Details" />
+        <activity android:name=".Activity_Foods_puran_poli" android:label="Details"/>
+        <activity android:name=".Activity_Foods_Vada_Pav" android:label="Details"/>
+        <activity android:name=".Activity_Historical_haveli" android:label="Details"/>
+        <activity android:name=".Activity_Historical_parvati_hill" android:label="Details"/>
+        <activity android:name=".Activity_Historical_Sinhagad" android:label="Details"/>
+        <activity android:name=".Activity_Historical_aga_khan_palace" android:label="Details"/>
+        <activity android:name=".Activity_Historical_lal_mahal" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_M_G_Road" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_Juna_Bazar" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_Fashion_Street" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_Mahatma_Phule" android:label="Details"/>
+        <activity android:name=".acivity_shoppingPlaces_Hong_Kong_Lane" android:label="Details"/>
+        <activity android:name=".activity_hotels_Fort" android:label="Details"/>
+        <activity android:name=".activity_Hotels_Blue_Diamond" android:label="Details"/>
+        <activity android:name=".activity_hotels_The_Corinthians_Resort" android:label="Details"/>
+        <activity android:name=".activity_Hotels_Marriott_Suites" android:label="Details"/>
+        <activity
+            android:name=".activity_Hotels_Hyatt"
+            android:label="Details "
+            >
+
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
